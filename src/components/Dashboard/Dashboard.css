@@ -1,0 +1,153 @@
+.dashboard-container {
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the box exactly */
+}
+  
+  .header {
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+  }
+
+  .header-btn{
+    display: flex;
+    gap :10px;
+  }
+  
+  
+  .logout-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .task-section {
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 400px;
+  }
+  
+  .task-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    table-layout: fixed;    
+  }
+  
+  .task-table th, .task-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #007bff;
+    color: white;
+    table-layout: fixed;
+  }
+  
+  input {
+    width: 90%;
+    padding: 5px;
+
+  }
+  
+  .edit-btn, .save-btn, .cancel-btn,.add-btn,.header-btn,.dlt-btn {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  .add-btn {
+    background-color: #28a745;
+    
+  }
+  
+  .edit-btn {
+    background-color: #ffcc00;
+    color: white;
+  }
+
+  .dlt-btn {
+    background-color: #3e925e;
+    color: white;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .add-task-btn, .settings-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .custom-datetime-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 180px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.custom-datetime-input:focus {
+  border-color: #4c9aff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 154, 255, 0.5);
+}
+
+/* Optional: make the calendar popup prettier */
+.rdtPicker {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.acntdelete-btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.acntdelete-btn:hover {
+  background-color: #c0392b;
+}
+  
+  /* .settings-btn {
+    background-color: #555;
+  } */
+  

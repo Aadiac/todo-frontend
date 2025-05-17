@@ -1,0 +1,114 @@
+.header {
+    position: relative; /* Add this line */
+    text-align: center; /* Center the text within the header */
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.header .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    align-content: center;
+    display: inline-block;
+
+}
+
+
+
+
+.inputs {
+    margin: 20px 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.input img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+.forget-password {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.forget-password span {
+    color: #6e8efb;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit {
+    background: #6e8efb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    align-self: center;
+}
+
+.submit:hover {
+    background: #5a79d7;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    background-color: #ffe6e6; /* Light red background */
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .success-message {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+    border: 1px solid #c3e6cb; /* Light green border */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px; /* Add some space below the message */
+    font-size: 16px;
+  }
